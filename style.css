@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(to bottom, #e4ada8, #e6d2b9, #d9d7b1);
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: #a0522d;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.page-wrapper {
+  max-width: 1000px;
+  padding: 20px;
+  background-color: rgba(255, 250, 240, 0.9);
+  border: 3px dashed #715c3f;
+  border-radius: 15px;
+  z-index: 2;
+  position: relative;
+}
+
+header {
+  text-align: center;
+  background-color: #fcd5ce;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #f4a261;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #7b3f00;
+  text-shadow: 2px 2px #fffaf0;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.column {
+  width: 48%;
+}
+
+.box {
+  background-color: #fff0f5;
+  border: 2px dotted #715c3f;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 8px #f6c1b0;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #7b3f00;
+}
+
+.banner-left, .banner-right {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
+
+.banner-left {
+  left: 0;
+  background-image: url(banner.jpg); /* Replace with your kawaii banner */
+}
+
+.banner-right {
+  right: 0;
+  background-image: url(banner.jpg); /* Replace with your kawaii banner */
+}
